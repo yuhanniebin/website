@@ -62,45 +62,55 @@ export default function Home() {
   /* ────────── Experience Data ────────── */
   const experiences = [
     {
-      date: "Dec 2024 – Present",
-      role: "Undergraduate Researcher",
-      org: "Sensors and Robotics for Infrastructure Lab, UCLA",
+      date: "Jun 2025 – Present",
+      role: "Data Science Product Analyst",
+      org: "Handshakes",
       bullets: [
-        "Integrate Livox & ZED SDKs, ROS 2, and YOLOv8 to enable object detection and localization for an autonomous robot.",
+        "Collaborating with product and engineering teams to scope data-driven feature improvements for Handshakes' app.",
+        "Designing and monitoring product analytics dashboards to evaluate feature adoption and performance using SQL and Python.",
       ],
     },
     {
-      date: "Sep 2024 – Present",
-      role: "Full‑Stack Developer",
-      org: "Orsulic Lab, UCLA",
+      date: "Jun 2025 – Present",
+      role: "Brand Ambassador",
+      org: "Adobe",
       bullets: [
-        "Architect and implement a PostgreSQL database on AWS, centralizing 50k+ records.",
-        "Develop interactive visualizations using Django REST API, Plotly, and React for seamless querying and real‑time updates.",
+        "Promoting Adobe Express through student workshops, social campaigns, and peer-to-peer engagement at UCLA.",
       ],
     },
     {
-      date: "Apr 2024 – Present",
-      role: "Frontend Developer",
-      org: "Association for Computing Machinery (ACM), UCLA",
+      date: "Jan 2025 – Jun 2025",
+      role: "Data Scientist",
+      org: "Reinforced Ventures",
       bullets: [
-        "Enhance ACM at UCLA's website (Next.js); site earned ACM HQ's Outstanding Website Award among 680 chapters.",
-        "Integrated the new ACM Cloud committee and launched partnership & alumni pages.",
+  "Defined metrics of founder success using lab pedigree, patent count, and startup outcomes across robotics and biotech domains.",
+  "Built predictive models to identify high-potential founders based on historical data from portfolio companies.",
       ],
     },
     {
-      date: "Sep 2024 – Present",
-      role: "Data Consultant",
-      org: "DataResolutions, UCLA",
+      date: "Mar 2025 – Jun 2025",
+      role: "Research Assistant",
+      org: "UCLA Health",
       bullets: [
-        "Collaborate with external clients to derive actionable insights, enhancing decision‑making through analytical solutions.",
+          "Built a statistically sound sampling framework to estimate CO₂ emissions, enabling accurate life-cycle analysis of 25K+ medical products.",
       ],
     },
     {
-      date: "Jan 2025 – Present",
-      role: "Peer Learning Facilitator",
-      org: "Academic Advancement Program, UCLA",
+      date: "Oct 2024 – Mar 2025",
+      role: "Business Analyst",
+      org: "Unishack",
       bullets: [
-        "Lead bi‑weekly peer learning sessions for PIC 10B (Intermediate Programming with C++), facilitating discussions and developing programming skills in a collaborative environment.",
+        "Conducted SEO audits and competitor analysis on sites like Zillow and Apartments.com to identify high-impact student housing keywords.",
+        "Developed user segmentation and UX improvement recommendations based on student feedback and web traffic data.",
+      ],
+    },
+    {
+      date: "Jun 2024 – Aug 2024",
+      role: "Data Engineer",
+      org: "CAAS",
+      bullets: [
+        "Built and maintained ETL pipelines in Azure Synapse Analytics to process 10GB of aviation data daily across 20+ tables.",
+        "Automated data cleaning and integration scripts in Python and Excel VBA to streamline manual workflows and reduce errors.",
       ],
     },
   ];
@@ -122,7 +132,7 @@ export default function Home() {
       primaryTag: "Real Estate",
       tags: ["Data Visualization", "Python", "Data Cleaning", "EDA"],
       imageUrl: "/logos/datafest.png",
-      link: "/project-2-url",
+      link: "/datafest-hackathon",
     },
     {
       title: "K-drama Analytics & Recommendation System",
@@ -308,7 +318,7 @@ export default function Home() {
             </svg>
           </a>
           <a
-            href="https://github.com/yourgithub"
+            href="https://github.com/yuhanniebin"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition-colors"
@@ -368,139 +378,144 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= Experience ================= */}
-      <section
-        id="experience"
-        className="bg-gradient-to-b from-pink-50 via-white to-rose-50 py-32"
-      >
-        <div className="relative">
-          <h2
-            className="text-center text-4xl font-semibold mb-16 bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent"
-            data-aos="fade-up"
-          >
-            Experience
-          </h2>
+      {/* ================= Experience (NEW ROBUST LAYOUT) ================= */}
+<section
+  id="experience"
+  className="bg-gradient-to-b from-pink-50 via-white to-rose-50 py-32"
+>
+  <div className="relative max-w-5xl mx-auto px-4">
+    <h2
+      className="text-center text-4xl font-semibold mb-20 bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent"
+      data-aos="fade-up"
+    >
+      Experience
+    </h2>
 
-          <div className="relative max-w-5xl mx-auto">
-            <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-px bg-gradient-to-b from-gray-300 via-gray-400 to-gray-300"></div>
-
-            {experiences.map((exp, idx) => (
-              <div
-                key={idx}
-                className={`relative mb-20 flex flex-col md:flex-row items-start ${idx % 2 === 0 ? "md:flex-row-reverse" : ""}`}
-                data-aos="fade-up"
-                data-aos-delay={idx * 100}
-              >
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 mt-2">
-                  <span className="block w-4 h-4 bg-pink-300 rounded-full border-4 border-white shadow-lg ring-2 ring-pink-100"></span>
-                </div>
-
-                <div className="md:w-1/2 px-8 text-right md:text-left">
-                  <p className="text-gray-500 text-sm mb-1">{exp.date}</p>
-                  <h3 className="text-xl font-semibold leading-tight text-gray-800">{exp.role}</h3>
-                  <p className="text-sm italic mb-3 text-gray-600">{exp.org}</p>
-                </div>
-
-                <ul className="md:w-1/2 px-8 list-disc list-inside space-y-2 text-gray-700">
-                  {exp.bullets.map((b, i) => (
-                    <li key={i}>{b}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+    <div className="flex flex-col">
+      {experiences.map((exp, idx) => (
+        <div
+          key={idx}
+          className="grid grid-cols-1 md:grid-cols-[1fr_auto_2fr] md:gap-x-8 pb-12"
+          data-aos="fade-up"
+          data-aos-delay={idx * 100}
+        >
+          {/* --- Left Column (Details) --- */}
+          <div className="md:text-right">
+            <p className="text-gray-500 text-sm mb-1">{exp.date}</p>
+            <p className="text-lg font-semibold leading-tight text-gray-800">{exp.org}</p>
+            <h3 className="text-lg italic text-gray-600">{exp.role}</h3>
+            
           </div>
+
+          {/* --- Center Column (Timeline Gutter with Dot and Line) --- */}
+          <div className="hidden md:flex flex-col items-center">
+            <div className="w-4 h-4 bg-pink-300 rounded-full border-4 border-white shadow-lg flex-shrink-0"></div>
+            <div className="w-px h-full bg-gray-300 mt-2"></div>
+          </div>
+
+          {/* --- Right Column (Bullets) --- */}
+          <ul className="list-disc list-inside space-y-2 text-gray-700 mt-4 md:mt-0">
+            {exp.bullets.map((b, i) => (
+              <li key={i}>{b}</li>
+            ))}
+          </ul>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* ================= Projects (NEW LAYOUT) ================= */}
-      <section
-        id="projects"
-        className="bg-gradient-to-b from-rose-50 via-pink-50 to-slate-50 py-32"
-      >
-        <div className="relative max-w-7xl mx-auto px-4">
-          <h2
-            className="text-center text-4xl font-semibold mb-16 bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent"
+<section
+  id="projects"
+  className="bg-gradient-to-b from-rose-50 via-pink-50 to-slate-50 py-32"
+>
+  <div className="relative max-w-7xl mx-auto px-4">
+    <h2
+      className="text-center text-4xl font-semibold mb-16 bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent"
+      data-aos="fade-up"
+    >
+      Featured Projects
+    </h2>
+
+    <div className="flex flex-col gap-16">
+      {projects.slice(0, visibleProjects).map((project, idx) => {
+        const cardClasses = "block p-8 rounded-2xl transition-all duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)] hover:bg-white/20 hover:backdrop-blur-sm hover:shadow-2xl hover:-translate-y-2";
+        
+        const cardContent = (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="flex flex-col gap-4">
+              <h3 className="text-2xl font-bold text-gray-800">{project.title}</h3>
+              <div className="flex flex-wrap items-center gap-4">
+                <span className="text-sm font-semibold text-gray-700 bg-gray-200 px-3 py-1 rounded-full">
+                  {project.primaryTag}
+                </span>
+              </div>
+              <p className="text-gray-600 leading-relaxed mt-2">{project.description}</p>
+              <div className="flex flex-wrap gap-x-3 gap-y-2 mt-2">
+                {project.tags.map((tag, tagIdx) => (
+                  <span key={tagIdx} className="text-sm text-gray-500 font-medium">
+                    {tag}{tagIdx < project.tags.length - 1 ? ' •' : ''}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src={project.imageUrl}
+                alt={`Screenshot of ${project.title}`}
+                layout="fill"
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                onError={(e) => { e.currentTarget.src = 'https://placehold.co/1600x900/fdeff5/374151?text=Project+Image'; }}
+              />
+            </div>
+          </div>
+        );
+
+        const linkProps = {
+          className: `${cardClasses} cursor-pointer`,
+          "data-aos": "fade-up",
+          "data-aos-delay": idx * 150,
+        };
+
+        if (project.title !== "DataFest Hackathon (🏅 Winner)") {
+          linkProps.target = "_blank";
+          linkProps.rel = "noopener noreferrer";
+        }
+
+        return project.link ? (
+          <Link href={project.link} passHref legacyBehavior key={idx}>
+            <a {...linkProps}>
+              {cardContent}
+            </a>
+          </Link>
+        ) : (
+          <div
+            key={idx}
+            className={cardClasses}
             data-aos="fade-up"
+            data-aos-delay={idx * 150}
           >
-            Featured Projects
-          </h2>
-
-          <div className="flex flex-col gap-16">
-
-            {projects.slice(0, visibleProjects).map((project, idx) => {
-              const cardClasses = "block p-8 rounded-2xl transition-all duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)] hover:bg-white/20 hover:backdrop-blur-sm hover:shadow-2xl hover:-translate-y-2";
-              
-              const cardContent = (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-                  <div className="flex flex-col gap-4">
-                    <h3 className="text-2xl font-bold text-gray-800">{project.title}</h3>
-                    <div className="flex flex-wrap items-center gap-4">
-                      <span className="text-sm font-semibold text-gray-700 bg-gray-200 px-3 py-1 rounded-full">
-                        {project.primaryTag}
-                      </span>
-                      
-                    </div>
-                    <p className="text-gray-600 leading-relaxed mt-2">{project.description}</p>
-                    <div className="flex flex-wrap gap-x-3 gap-y-2 mt-2">
-                      {project.tags.map((tag, tagIdx) => (
-                        <span key={tagIdx} className="text-sm text-gray-500 font-medium">
-                          {tag}{tagIdx < project.tags.length - 1 ? ' •' : ''}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg">
-                    <Image
-                      src={project.imageUrl}
-                      alt={`Screenshot of ${project.title}`}
-                      layout="fill"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      onError={(e) => { e.currentTarget.src = 'https://placehold.co/1600x900/fdeff5/374151?text=Project+Image'; }}
-                    />
-                  </div>
-                </div>
-              );
-
-              return project.link ? (
-                <Link href={project.link} passHref legacyBehavior key={idx}>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`${cardClasses} cursor-pointer`}
-                    data-aos="fade-up"
-                    data-aos-delay={idx * 150}
-                  >
-                    {cardContent}
-                  </a>
-                </Link>
-              ) : (
-                <div
-                  key={idx}
-                  className={cardClasses}
-                  data-aos="fade-up"
-                  data-aos-delay={idx * 150}
-                >
-                  {cardContent}
-                </div>
-              );
-            })}
+            {cardContent}
           </div>
+        );
+      })} {/* <--- THIS IS THE MISSING CLOSING BRACE AND PARENTHESIS */}
+    </div>
 
-
-          <div className="mt-16 text-center">
-            {visibleProjects < projects.length && (
-              <button
-                onClick={() => setVisibleProjects(projects.length)}
-                className="inline-flex items-center gap-2 text-black px-8 py-3 rounded-lg font-semibold border border-black bg-transparent transition-all duration-300 transform hover:scale-105 hover:text-white"
-                onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#FDA4BA'; e.currentTarget.style.borderColor = 'transparent'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.borderColor = 'black'; }}
-              >
-                View More
-              </button>
-            )}
-          </div>
-        </div>
-      </section>
+    <div className="mt-16 text-center">
+      {visibleProjects < projects.length && (
+        <button
+          onClick={() => setVisibleProjects(projects.length)}
+          className="inline-flex items-center gap-2 text-black px-8 py-3 rounded-lg font-semibold border border-black bg-transparent transition-all duration-300 transform hover:scale-105 hover:text-white"
+          onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#FDA4BA'; e.currentTarget.style.borderColor = 'transparent'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.borderColor = 'black'; }}
+        >
+          View More
+        </button>
+      )}
+    </div>
+  </div>
+</section>
 
       {/* ================= Skills, Playground & Connect ================= */}
       {/* FIX: Merged Skills and Playground sections */}
