@@ -205,7 +205,7 @@ export default function DatafestHackathonPage() {
       alt="Map of lease locations before interactivity"
       width={800}
       height={600}
-      className="rounded-lg shadow-md object-cover w-full h-[400px] object-contain"
+      className="rounded-lg shadow-md object-cover w-full aspect-[4/3] object-contain"
     />
   </div>
 
@@ -237,7 +237,7 @@ export default function DatafestHackathonPage() {
       alt="Basic radar chart comparing LA and OC"
       width={800}
       height={600}
-      className="rounded-lg shadow-md object-cover w-full h-[400px] object-contain"
+      className="rounded-lg shadow-md object-cover w-full aspect-[4/3] object-contain"
     />
   </div>
 
