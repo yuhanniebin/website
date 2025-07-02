@@ -285,7 +285,7 @@ export default function DatafestHackathonPage() {
         <h1 className="text-4xl md:text-4xl font-semibold text-gray-900 mb-6">Final Thoughts</h1>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-12">
-<em>Sleep?</em> DataFest was a blur of caffeine ☕️, chaotic brainstorms, and surprisingly productive late-night breakthroughs—and I 
+<em>Sleep?</em> Not at DataFest. It was a blur of caffeine ☕️, chaotic brainstorms, and surprisingly productive late-night breakthroughs—and I 
 <span className="text-blue-400">loved</span> every second. As my first hackathon, it taught me how to turn messy data into something actually useful 
 (and maybe even a little pretty). </p>
 <p className="text-lg mb-12">I walked away not just with a working solution, but with a much deeper appreciation for the <span className="text-blue-400">creative, scrappy</span> process of data storytelling. Big shoutout to my teammates for being insanely talented, and the best people to be stuck in a 48-hour data 
