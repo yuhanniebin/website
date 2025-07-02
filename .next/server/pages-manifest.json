@@ -1,0 +1,8 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/datafest-hackathon": "pages/datafest-hackathon.js",
+  "/": "pages/index.js",
+  "/playground": "pages/playground.js"
+}
