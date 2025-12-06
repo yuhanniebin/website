@@ -156,7 +156,7 @@ export default function Home() {
       primaryTag: "Baseball Analytics",
       tags: ["Pitch Metrics", "Logistic Regression", "Poisson Regression"],
       imageUrl: "/logos/mlb.png",
-      link: "/Project/Poster.pdf",
+      link: "/project/Poster.pdf",
     },
     {
       title: "Estimating CO₂ Emissions at UCSF Health Using a Hybrid Sampling Approach",
@@ -164,7 +164,7 @@ export default function Home() {
       primaryTag: "Sampling Design",
       tags: ["Propensity Scoring", "Confidence Intervals"],
       imageUrl: "/logos/ucsf_health.jpg",
-      link: "/Project/Research Report.pdf",
+      link: "/project/Research Report.pdf",
     },
     {
       title: "How Music Shapes Young Minds",
@@ -172,7 +172,7 @@ export default function Home() {
       primaryTag: "Experimental Design", 
       tags: ["ANOVA", "R programming", "Randomized Block Design"],
       imageUrl: "/logos/music pic.png",
-      link: "/Project/How Music Shapes Young Minds.pdf"
+      link: "/project/How Music Shapes Young Minds.pdf"
     }
   ];
 

@@ -1,0 +1,20 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/[root-of-the-server]__585d9b6f._.js",
+  "static/chunks/node_modules_next_dist_compiled_857faed2._.js",
+  "static/chunks/node_modules_next_dist_shared_lib_4534cb8c._.js",
+  "static/chunks/node_modules_next_dist_client_45e9549c._.js",
+  "static/chunks/node_modules_next_dist_6024eba3._.js",
+  "static/chunks/node_modules_next_d6a2c7a7._.js",
+  "static/chunks/node_modules_react-dom_4411d9bd._.js",
+  "static/chunks/node_modules_three_build_three_core_1094d3ef.js",
+  "static/chunks/node_modules_three_build_three_module_74ce5faf.js",
+  "static/chunks/node_modules_three_build_three_module_9e618f6d.js",
+  "static/chunks/node_modules_react-reconciler_eb89a692._.js",
+  "static/chunks/node_modules_@react-three_fiber_dist_6079f14b._.js",
+  "static/chunks/node_modules_f6a7a47f._.js",
+  "static/chunks/[root-of-the-server]__269ba64a._.css"
+],
+    source: "entry"
+});

@@ -1,0 +1,1337 @@
+[00:00:03.050] Server  LOG      ✓ Ready in 2.7s
+[00:00:28.781] Server  ERROR   `legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components
+[00:00:28.781] Server  WARN    Image with src "/logos/datafest.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:28.782] Server  WARN    Image with src "/logos/kdrama.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:28.784] Server  WARN    Image with src "/logos/football.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:28.784] Server  WARN    Image with src "/logos/mlb.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:30.699] Browser ERROR   `legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components
+[00:00:30.699] Browser WARN    Image with src "/logos/datafest.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:30.699] Browser WARN    Image with src "/logos/kdrama.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:30.699] Browser WARN    Image with src "/logos/football.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:30.699] Browser WARN    Image with src "/logos/mlb.png" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:00:30.699] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <PagesDevOverlayBridge>
+      <PagesDevOverlayErrorBoundary>
+        <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={true}>
+          <MyApp pageProps={{}} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
+            <Script>
+            <Script>
+            <Home>
+              <main className="jsx-872df3...">
+                <CustomCursor>
+                <nav>
+                <section id="hero" className="jsx-872df3...">
+                  <div className="jsx-872df3...">
+                    <span
+                      style={{
++                       width: "5.492076576896654px"
+-                       width: "8.10677px"
++                       height: "5.492076576896654px"
+-                       height: "8.10677px"
++                       left: "81.70287969977731%"
+-                       left: "85.2881%"
++                       top: "73.97849876236364%"
+-                       top: "28.1182%"
++                       animationDuration: "8.101137845199487s"
++                       animationDelay: "4.302521347850906s"
+-                       animation-duration: "5.31884s"
+-                       animation-delay: "1.38023s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.455312297169282px"
+-                       width: "7.95444px"
++                       height: "10.455312297169282px"
+-                       height: "7.95444px"
++                       left: "76.74546049311465%"
+-                       left: "25.4206%"
++                       top: "34.116725516052284%"
+-                       top: "77.0411%"
++                       animationDuration: "9.100041544998096s"
++                       animationDelay: "2.315945588428601s"
+-                       animation-duration: "8.16318s"
+-                       animation-delay: "2.63054s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.854758486703005px"
+-                       width: "6.20755px"
++                       height: "8.854758486703005px"
+-                       height: "6.20755px"
++                       left: "90.59032248925497%"
+-                       left: "65.4809%"
++                       top: "40.81848956658983%"
+-                       top: "52.1966%"
++                       animationDuration: "8.33064207123853s"
++                       animationDelay: "1.9239500920986945s"
+-                       animation-duration: "9.60675s"
+-                       animation-delay: "0.451928s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.834270308562663px"
+-                       width: "5.41857px"
++                       height: "4.834270308562663px"
+-                       height: "5.41857px"
++                       left: "27.4232535637399%"
+-                       left: "60.8812%"
++                       top: "36.20893956240787%"
+-                       top: "29.2252%"
++                       animationDuration: "7.4661763868184705s"
++                       animationDelay: "4.837493797173239s"
+-                       animation-duration: "7.97419s"
+-                       animation-delay: "4.96116s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.978025997565767px"
+-                       width: "11.1821px"
++                       height: "4.978025997565767px"
+-                       height: "11.1821px"
++                       left: "37.75134721123541%"
+-                       left: "31.6839%"
++                       top: "99.65206985152749%"
+-                       top: "80.9553%"
++                       animationDuration: "7.084217642052838s"
++                       animationDelay: "0.18260873145255763s"
+-                       animation-duration: "9.01934s"
+-                       animation-delay: "4.93291s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.146657017502045px"
+-                       width: "5.03143px"
++                       height: "7.146657017502045px"
+-                       height: "5.03143px"
++                       left: "46.26970419693771%"
+-                       left: "78.182%"
++                       top: "43.83792146030423%"
+-                       top: "43.2284%"
++                       animationDuration: "6.488461667898852s"
++                       animationDelay: "4.863778215463547s"
+-                       animation-duration: "6.45491s"
+-                       animation-delay: "1.22823s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "5.763485481456009px"
+-                       width: "10.4874px"
++                       height: "5.763485481456009px"
+-                       height: "10.4874px"
++                       left: "67.31107743551586%"
+-                       left: "70.6172%"
++                       top: "11.509293750069737%"
+-                       top: "60.8396%"
++                       animationDuration: "6.0011902507251005s"
++                       animationDelay: "1.057328637898507s"
+-                       animation-duration: "8.95312s"
+-                       animation-delay: "2.56195s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.943365794844624px"
+-                       width: "5.30352px"
++                       height: "9.943365794844624px"
+-                       height: "5.30352px"
++                       left: "2.2143191530591855%"
+-                       left: "28.1916%"
++                       top: "84.4663070341393%"
+-                       top: "48.2249%"
++                       animationDuration: "9.387871765576511s"
++                       animationDelay: "3.494706476328057s"
+-                       animation-duration: "5.15846s"
+-                       animation-delay: "2.1787s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "5.039842080371074px"
+-                       width: "9.15496px"
++                       height: "5.039842080371074px"
+-                       height: "9.15496px"
++                       left: "93.73548609974507%"
+-                       left: "94.2941%"
++                       top: "22.153496277856675%"
+-                       top: "97.8175%"
++                       animationDuration: "9.014193477980916s"
++                       animationDelay: "2.478852597660022s"
+-                       animation-duration: "9.00039s"
+-                       animation-delay: "3.63214s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.230450943862031px"
+-                       width: "5.27959px"
++                       height: "11.230450943862031px"
+-                       height: "5.27959px"
++                       left: "16.774472001286412%"
+-                       left: "77.6396%"
++                       top: "22.69450387538895%"
+-                       top: "48.9177%"
++                       animationDuration: "7.425784126057385s"
++                       animationDelay: "1.9699616054151814s"
+-                       animation-duration: "6.14173s"
+-                       animation-delay: "1.83387s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.764848592083421px"
+-                       width: "6.91387px"
++                       height: "11.764848592083421px"
+-                       height: "6.91387px"
++                       left: "99.22495347588209%"
+-                       left: "53.4329%"
++                       top: "62.91635816113319%"
+-                       top: "45.4483%"
++                       animationDuration: "8.00632880760928s"
++                       animationDelay: "2.8379047923213294s"
+-                       animation-duration: "7.64638s"
+-                       animation-delay: "1.51229s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.629625140632946px"
+-                       width: "8.00988px"
++                       height: "9.629625140632946px"
+-                       height: "8.00988px"
++                       left: "82.10010487893182%"
+-                       left: "52.0785%"
++                       top: "45.447624582494505%"
+-                       top: "69.5626%"
++                       animationDuration: "6.972082710251236s"
++                       animationDelay: "1.354060373151258s"
+-                       animation-duration: "5.54249s"
+-                       animation-delay: "4.03773s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.227437641190626px"
+-                       width: "4.98674px"
++                       height: "8.227437641190626px"
+-                       height: "4.98674px"
++                       left: "32.90110333740293%"
+-                       left: "74.7766%"
++                       top: "76.52926522267471%"
+-                       top: "39.7396%"
++                       animationDuration: "9.011502477114362s"
++                       animationDelay: "1.4270962951611716s"
+-                       animation-duration: "7.28411s"
+-                       animation-delay: "3.87021s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.456045548970152px"
+-                       width: "8.86065px"
++                       height: "11.456045548970152px"
+-                       height: "8.86065px"
++                       left: "17.225307767197297%"
+-                       left: "59.7083%"
++                       top: "2.6111098065463634%"
+-                       top: "89.0592%"
++                       animationDuration: "9.01501053746351s"
++                       animationDelay: "1.3464358817040871s"
+-                       animation-duration: "5.90835s"
+-                       animation-delay: "2.92764s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.958971350659958px"
+-                       width: "6.40467px"
++                       height: "10.958971350659958px"
+-                       height: "6.40467px"
++                       left: "61.85271758738837%"
+-                       left: "76.3152%"
++                       top: "25.84495557562787%"
+-                       top: "11.4779%"
++                       animationDuration: "8.140830687926725s"
++                       animationDelay: "1.1991017300358242s"
+-                       animation-duration: "6.50447s"
+-                       animation-delay: "2.03467s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.531021048634231px"
+-                       width: "4.6611px"
++                       height: "7.531021048634231px"
+-                       height: "4.6611px"
++                       left: "34.95355941737345%"
+-                       left: "80.1128%"
++                       top: "50.659092150965854%"
+-                       top: "0.966714%"
++                       animationDuration: "6.672428579662869s"
++                       animationDelay: "2.039313755003076s"
+-                       animation-duration: "5.02387s"
+-                       animation-delay: "2.32378s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.511623671602821px"
+-                       width: "7.51945px"
++                       height: "7.511623671602821px"
+-                       height: "7.51945px"
++                       left: "40.1827275244863%"
+-                       left: "47.1463%"
++                       top: "56.938463787472095%"
+-                       top: "81.1595%"
++                       animationDuration: "7.135151387890041s"
++                       animationDelay: "4.171230292447s"
+-                       animation-duration: "7.8447s"
+-                       animation-delay: "3.66236s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.84100926727373px"
+-                       width: "8.86214px"
++                       height: "8.84100926727373px"
+-                       height: "8.86214px"
++                       left: "49.46937793225595%"
+-                       left: "37.5598%"
++                       top: "44.90862594592442%"
+-                       top: "95.0525%"
++                       animationDuration: "8.481502975517614s"
++                       animationDelay: "2.9925801455070404s"
+-                       animation-duration: "7.52075s"
+-                       animation-delay: "3.85376s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.178396518544149px"
+-                       width: "4.96258px"
++                       height: "7.178396518544149px"
+-                       height: "4.96258px"
++                       left: "4.168629187684026%"
+-                       left: "23.5875%"
++                       top: "0.044541760070249126%"
+-                       top: "73.0642%"
++                       animationDuration: "8.936890222024584s"
++                       animationDelay: "3.9097267427256694s"
+-                       animation-duration: "6.77492s"
+-                       animation-delay: "1.95748s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.665024358719634px"
+-                       width: "4.68793px"
++                       height: "8.665024358719634px"
+-                       height: "4.68793px"
++                       left: "23.498122454821747%"
+-                       left: "45.4997%"
++                       top: "74.75758893436752%"
+-                       top: "64.4118%"
++                       animationDuration: "6.662993334211606s"
++                       animationDelay: "1.9923338579753986s"
+-                       animation-duration: "6.7077s"
+-                       animation-delay: "4.94377s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "6.806645791815294px"
+-                       width: "4.85196px"
++                       height: "6.806645791815294px"
+-                       height: "4.85196px"
++                       left: "83.18171403953578%"
+-                       left: "15.9042%"
++                       top: "92.80235025567649%"
+-                       top: "22.7406%"
++                       animationDuration: "5.684804977908927s"
++                       animationDelay: "0.23247407162103495s"
+-                       animation-duration: "9.2221s"
+-                       animation-delay: "0.452041s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "6.266254784274283px"
+-                       width: "6.14257px"
++                       height: "6.266254784274283px"
+-                       height: "6.14257px"
++                       left: "1.2766510318601876%"
+-                       left: "72.644%"
++                       top: "56.870494519354565%"
+-                       top: "7.99537%"
++                       animationDuration: "9.986455695727678s"
++                       animationDelay: "0.6298704792355858s"
+-                       animation-duration: "7.31716s"
+-                       animation-delay: "2.2603s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.474764169201382px"
+-                       width: "4.66066px"
++                       height: "8.474764169201382px"
+-                       height: "4.66066px"
++                       left: "93.15291947977407%"
+-                       left: "44.2982%"
++                       top: "57.50588115748438%"
+-                       top: "32.2891%"
++                       animationDuration: "9.130202937457337s"
++                       animationDelay: "1.1968901684272852s"
+-                       animation-duration: "5.19534s"
+-                       animation-delay: "4.48612s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.139609375144381px"
+-                       width: "8.8228px"
++                       height: "11.139609375144381px"
+-                       height: "8.8228px"
++                       left: "59.295562607407824%"
+-                       left: "2.87855%"
++                       top: "68.70887113499064%"
+-                       top: "61.5358%"
++                       animationDuration: "9.419516381129792s"
++                       animationDelay: "0.3178593050416434s"
+-                       animation-duration: "5.35132s"
+-                       animation-delay: "3.10479s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.53159798314858px"
+-                       width: "10.5971px"
++                       height: "4.53159798314858px"
+-                       height: "10.5971px"
++                       left: "70.3673447204145%"
+-                       left: "77.5281%"
++                       top: "90.8499992310784%"
+-                       top: "68.1874%"
++                       animationDuration: "7.734659204025512s"
++                       animationDelay: "0.737705382832694s"
+-                       animation-duration: "6.23937s"
+-                       animation-delay: "2.31709s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.279431466823981px"
+-                       width: "10.509px"
++                       height: "8.279431466823981px"
+-                       height: "10.509px"
++                       left: "2.553518663163723%"
+-                       left: "39.8083%"
++                       top: "28.863546606617973%"
+-                       top: "93.4657%"
++                       animationDuration: "5.614896007089593s"
++                       animationDelay: "3.4451466216297053s"
+-                       animation-duration: "5.66866s"
+-                       animation-delay: "1.91828s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.263247517686565px"
+-                       width: "4.5618px"
++                       height: "9.263247517686565px"
+-                       height: "4.5618px"
++                       left: "56.7243639958768%"
+-                       left: "23.7206%"
++                       top: "25.08340447326659%"
+-                       top: "16.8998%"
++                       animationDuration: "6.200993611687716s"
++                       animationDelay: "4.283328442882592s"
+-                       animation-duration: "6.29027s"
+-                       animation-delay: "2.63057s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.1138367861152965px"
+-                       width: "4.15469px"
++                       height: "7.1138367861152965px"
+-                       height: "4.15469px"
++                       left: "6.522865982051562%"
+-                       left: "68.3133%"
++                       top: "84.80432825440012%"
+-                       top: "1.02619%"
++                       animationDuration: "7.2176699157044615s"
++                       animationDelay: "0.8743223648487042s"
+-                       animation-duration: "5.84686s"
+-                       animation-delay: "4.12009s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.0129340780149745px"
+-                       width: "8.46566px"
++                       height: "4.0129340780149745px"
+-                       height: "8.46566px"
++                       left: "87.94077399849448%"
+-                       left: "36.1901%"
++                       top: "34.68280702379673%"
+-                       top: "94.8686%"
++                       animationDuration: "5.740373497837979s"
++                       animationDelay: "0.8816089108842973s"
+-                       animation-duration: "9.03919s"
+-                       animation-delay: "3.32726s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "6.164742758712431px"
+-                       width: "11.9083px"
++                       height: "6.164742758712431px"
+-                       height: "11.9083px"
++                       left: "90.38838814051716%"
+-                       left: "26.0445%"
++                       top: "72.78936023177536%"
+-                       top: "34.4486%"
++                       animationDuration: "8.424742786257458s"
++                       animationDelay: "1.3626374695344567s"
+-                       animation-duration: "9.14018s"
+-                       animation-delay: "4.67244s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.743649830446579px"
+-                       width: "5.5277px"
++                       height: "9.743649830446579px"
+-                       height: "5.5277px"
++                       left: "34.76689658401312%"
+-                       left: "59.8571%"
++                       top: "48.593074953292415%"
+-                       top: "56.8154%"
++                       animationDuration: "5.91120603438351s"
++                       animationDelay: "0.001086785457537487s"
+-                       animation-duration: "5.42973s"
+-                       animation-delay: "0.780034s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.790815204020776px"
+-                       width: "6.94589px"
++                       height: "11.790815204020776px"
+-                       height: "6.94589px"
++                       left: "32.35878551326916%"
+-                       left: "11.3792%"
++                       top: "4.516060654541132%"
+-                       top: "0.881234%"
++                       animationDuration: "5.910532157355715s"
++                       animationDelay: "1.6604086385859702s"
+-                       animation-duration: "8.25008s"
+-                       animation-delay: "2.88127s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "5.516204160074906px"
+-                       width: "7.64076px"
++                       height: "5.516204160074906px"
+-                       height: "7.64076px"
++                       left: "67.77391173082859%"
+-                       left: "20.9971%"
++                       top: "39.91906620611043%"
+-                       top: "5.64059%"
++                       animationDuration: "9.78861644540458s"
++                       animationDelay: "4.663992817146818s"
+-                       animation-duration: "6.55235s"
+-                       animation-delay: "4.70775s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.514356417860588px"
+-                       width: "8.39174px"
++                       height: "10.514356417860588px"
+-                       height: "8.39174px"
++                       left: "49.05901267942916%"
+-                       left: "37.7608%"
++                       top: "61.56816708386089%"
+-                       top: "58.4912%"
++                       animationDuration: "7.911229406057607s"
++                       animationDelay: "2.1728762421397416s"
+-                       animation-duration: "8.44251s"
+-                       animation-delay: "0.541647s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.673708497564463px"
+-                       width: "4.2414px"
++                       height: "7.673708497564463px"
+-                       height: "4.2414px"
++                       left: "33.084849197830266%"
+-                       left: "40.7331%"
++                       top: "41.014817811459345%"
+-                       top: "69.9551%"
++                       animationDuration: "5.072960406408395s"
++                       animationDelay: "1.8868911542165046s"
+-                       animation-duration: "5.59643s"
+-                       animation-delay: "2.02427s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.383718309469742px"
+-                       width: "11.2834px"
++                       height: "9.383718309469742px"
+-                       height: "11.2834px"
++                       left: "50.76918961218079%"
+-                       left: "64.6113%"
++                       top: "64.33730763592173%"
+-                       top: "7.6944%"
++                       animationDuration: "5.139476140977566s"
++                       animationDelay: "3.008366957284669s"
+-                       animation-duration: "6.18939s"
+-                       animation-delay: "2.29064s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "6.521298220575266px"
+-                       width: "5.2306px"
++                       height: "6.521298220575266px"
+-                       height: "5.2306px"
++                       left: "91.73127564069638%"
+-                       left: "76.5254%"
++                       top: "24.620096936918255%"
+-                       top: "94.5988%"
++                       animationDuration: "5.029530829116485s"
++                       animationDelay: "4.571341174973441s"
+-                       animation-duration: "7.8933s"
+-                       animation-delay: "2.03538s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "5.184259229971576px"
+-                       width: "10.8836px"
++                       height: "5.184259229971576px"
+-                       height: "10.8836px"
++                       left: "97.44937673968056%"
+-                       left: "92.092%"
++                       top: "29.95902971242872%"
+-                       top: "72.2679%"
++                       animationDuration: "7.774816890849429s"
++                       animationDelay: "2.891759478201s"
+-                       animation-duration: "7.03669s"
+-                       animation-delay: "2.3734s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.855183129219707px"
+-                       width: "5.01143px"
++                       height: "8.855183129219707px"
+-                       height: "5.01143px"
++                       left: "64.15440642436711%"
+-                       left: "57.8275%"
++                       top: "11.233307590067575%"
+-                       top: "84.6145%"
++                       animationDuration: "8.604793549579718s"
++                       animationDelay: "4.194864301458759s"
+-                       animation-duration: "5.70968s"
+-                       animation-delay: "2.32669s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.588028656423973px"
+-                       width: "5.68094px"
++                       height: "10.588028656423973px"
+-                       height: "5.68094px"
++                       left: "74.73694958104376%"
+-                       left: "54.1436%"
++                       top: "63.756809323448834%"
+-                       top: "86.3413%"
++                       animationDuration: "5.308076188977993s"
++                       animationDelay: "4.987361029886209s"
+-                       animation-duration: "9.64712s"
+-                       animation-delay: "3.05538s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.003148021262124px"
+-                       width: "6.79542px"
++                       height: "4.003148021262124px"
+-                       height: "6.79542px"
++                       left: "86.13690304360846%"
+-                       left: "68.8155%"
++                       top: "54.36977556470271%"
+-                       top: "95.3113%"
++                       animationDuration: "8.955287107237316s"
++                       animationDelay: "3.2658868436918005s"
+-                       animation-duration: "9.89838s"
+-                       animation-delay: "3.74211s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.258115552224897px"
+-                       width: "11.9757px"
++                       height: "9.258115552224897px"
+-                       height: "11.9757px"
++                       left: "6.867290980939278%"
+-                       left: "66.4289%"
++                       top: "77.74952048771954%"
+-                       top: "24.0214%"
++                       animationDuration: "5.117859729996471s"
++                       animationDelay: "3.7167307717998144s"
+-                       animation-duration: "7.57509s"
+-                       animation-delay: "0.586928s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "6.61471454765345px"
+-                       width: "7.87494px"
++                       height: "6.61471454765345px"
+-                       height: "7.87494px"
++                       left: "70.08254968266772%"
+-                       left: "27.4999%"
++                       top: "66.0088095917741%"
+-                       top: "87.6386%"
++                       animationDuration: "9.083474749933286s"
++                       animationDelay: "2.0187831640012623s"
+-                       animation-duration: "5.85304s"
+-                       animation-delay: "4.54755s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.819852636924398px"
+-                       width: "6.75058px"
++                       height: "7.819852636924398px"
+-                       height: "6.75058px"
++                       left: "19.08986781455817%"
+-                       left: "47.8801%"
++                       top: "12.804942305497779%"
+-                       top: "12.7774%"
++                       animationDuration: "6.013707602393865s"
++                       animationDelay: "4.271402232289482s"
+-                       animation-duration: "5.04478s"
+-                       animation-delay: "4.91321s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.806186141809329px"
+-                       width: "10.7768px"
++                       height: "8.806186141809329px"
+-                       height: "10.7768px"
++                       left: "66.08415741112682%"
+-                       left: "90.0313%"
++                       top: "63.11084709321072%"
+-                       top: "14.5162%"
++                       animationDuration: "8.986101608408s"
++                       animationDelay: "2.5112908638150166s"
+-                       animation-duration: "7.72208s"
+-                       animation-delay: "4.75526s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.54012273924066px"
+-                       width: "4.07165px"
++                       height: "11.54012273924066px"
+-                       height: "4.07165px"
++                       left: "81.76698240161299%"
+-                       left: "43.5815%"
++                       top: "58.17848094550968%"
+-                       top: "34.1437%"
++                       animationDuration: "9.923932388553695s"
++                       animationDelay: "3.45109751512737s"
+-                       animation-duration: "8.73804s"
+-                       animation-delay: "1.27487s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.955734797717561px"
+-                       width: "10.1947px"
++                       height: "10.955734797717561px"
+-                       height: "10.1947px"
++                       left: "50.30521074939601%"
+-                       left: "32.2981%"
++                       top: "90.31308560786223%"
+-                       top: "47.1916%"
++                       animationDuration: "7.870273564609409s"
++                       animationDelay: "1.2542254988688555s"
+-                       animation-duration: "5.17256s"
+-                       animation-delay: "4.01179s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.368840310951711px"
+-                       width: "5.50107px"
++                       height: "10.368840310951711px"
+-                       height: "5.50107px"
++                       left: "32.71783405131724%"
+-                       left: "95.1451%"
++                       top: "41.07751777132509%"
+-                       top: "52.5861%"
++                       animationDuration: "9.53270842083365s"
++                       animationDelay: "1.6545151675915293s"
+-                       animation-duration: "9.24984s"
+-                       animation-delay: "1.77504s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.21963129801523px"
+-                       width: "7.78142px"
++                       height: "9.21963129801523px"
+-                       height: "7.78142px"
++                       left: "48.37853351638549%"
+-                       left: "75.1993%"
++                       top: "54.495350614183714%"
+-                       top: "69.3855%"
++                       animationDuration: "6.927134140718343s"
++                       animationDelay: "1.9458493835696822s"
+-                       animation-duration: "6.70316s"
+-                       animation-delay: "0.441204s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.812071416404002px"
+-                       width: "7.21851px"
++                       height: "8.812071416404002px"
+-                       height: "7.21851px"
++                       left: "99.47330713021553%"
+-                       left: "45.081%"
++                       top: "18.27754804961358%"
+-                       top: "17.0734%"
++                       animationDuration: "6.2198262989877335s"
++                       animationDelay: "3.651924529734438s"
+-                       animation-duration: "5.71228s"
+-                       animation-delay: "0.659351s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.680126254648414px"
+-                       width: "5.71996px"
++                       height: "8.680126254648414px"
+-                       height: "5.71996px"
++                       left: "87.53397237438585%"
+-                       left: "13.6228%"
++                       top: "95.37680754433809%"
+-                       top: "55.8876%"
++                       animationDuration: "6.695484674886608s"
++                       animationDelay: "1.0074821520561184s"
+-                       animation-duration: "5.35836s"
+-                       animation-delay: "4.19566s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.615302052042631px"
+-                       width: "7.89849px"
++                       height: "8.615302052042631px"
+-                       height: "7.89849px"
++                       left: "70.58980560689521%"
+-                       left: "96.96%"
++                       top: "64.28698914064442%"
+-                       top: "90.0785%"
++                       animationDuration: "6.170431477473786s"
++                       animationDelay: "2.836293015367097s"
+-                       animation-duration: "8.96533s"
+-                       animation-delay: "3.56627s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.686829444488281px"
+-                       width: "8.66915px"
++                       height: "7.686829444488281px"
+-                       height: "8.66915px"
++                       left: "7.872854960921116%"
+-                       left: "46.83%"
++                       top: "15.54812519182336%"
+-                       top: "70.827%"
++                       animationDuration: "8.506669104977773s"
++                       animationDelay: "0.7355926603375051s"
+-                       animation-duration: "9.88538s"
+-                       animation-delay: "0.825466s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.949267895008143px"
+-                       width: "4.33235px"
++                       height: "4.949267895008143px"
+-                       height: "4.33235px"
++                       left: "75.16311386772287%"
+-                       left: "84.0949%"
++                       top: "23.328660693782478%"
+-                       top: "42.8856%"
++                       animationDuration: "9.677144933179632s"
++                       animationDelay: "3.331514295008065s"
+-                       animation-duration: "6.18636s"
+-                       animation-delay: "2.37295s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.6598274147832175px"
+-                       width: "6.40464px"
++                       height: "7.6598274147832175px"
+-                       height: "6.40464px"
++                       left: "95.18150296750399%"
+-                       left: "79.6328%"
++                       top: "17.624791509614134%"
+-                       top: "60.9718%"
++                       animationDuration: "9.568629989782316s"
++                       animationDelay: "1.2629667026243552s"
+-                       animation-duration: "5.74778s"
+-                       animation-delay: "0.8878s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.574130397742316px"
+-                       width: "5.60333px"
++                       height: "11.574130397742316px"
+-                       height: "5.60333px"
++                       left: "0.49186589689299565%"
+-                       left: "66.2998%"
++                       top: "76.25444159702556%"
+-                       top: "44.389%"
++                       animationDuration: "7.157453699055954s"
++                       animationDelay: "2.2589831773856246s"
+-                       animation-duration: "8.06068s"
+-                       animation-delay: "4.37425s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.564097821068843px"
+-                       width: "6.04699px"
++                       height: "7.564097821068843px"
+-                       height: "6.04699px"
++                       left: "25.568369069079587%"
+-                       left: "76.1244%"
++                       top: "67.26398017698102%"
+-                       top: "96.403%"
++                       animationDuration: "7.883390483686759s"
++                       animationDelay: "3.1402466430607157s"
+-                       animation-duration: "5.19106s"
+-                       animation-delay: "0.300819s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.165655337913347px"
+-                       width: "10.6877px"
++                       height: "4.165655337913347px"
+-                       height: "10.6877px"
++                       left: "90.40618254695194%"
+-                       left: "85.1831%"
++                       top: "80.94097585574188%"
+-                       top: "58.7064%"
++                       animationDuration: "7.24923274345949s"
++                       animationDelay: "3.7193363961895534s"
+-                       animation-duration: "9.60436s"
+-                       animation-delay: "0.321601s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "5.593184470141395px"
+-                       width: "11.3628px"
++                       height: "5.593184470141395px"
+-                       height: "11.3628px"
++                       left: "64.45173213325853%"
+-                       left: "24.6702%"
++                       top: "20.786769837071795%"
+-                       top: "23.9554%"
++                       animationDuration: "7.70590788513288s"
++                       animationDelay: "2.2188328536026725s"
+-                       animation-duration: "6.45653s"
+-                       animation-delay: "0.0157204s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.244204866710135px"
+-                       width: "10.4177px"
++                       height: "9.244204866710135px"
+-                       height: "10.4177px"
++                       left: "25.735742955372853%"
+-                       left: "2.03612%"
++                       top: "26.253326471437667%"
+-                       top: "70.4286%"
++                       animationDuration: "6.057391289980297s"
++                       animationDelay: "1.8651128802618167s"
+-                       animation-duration: "9.04002s"
+-                       animation-delay: "0.66172s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "7.100523987469533px"
+-                       width: "7.51427px"
++                       height: "7.100523987469533px"
+-                       height: "7.51427px"
++                       left: "85.20113110214544%"
+-                       left: "80.1743%"
++                       top: "45.312187580112294%"
+-                       top: "43.8184%"
++                       animationDuration: "7.292386211303958s"
++                       animationDelay: "1.8040653201679584s"
+-                       animation-duration: "8.06635s"
+-                       animation-delay: "3.89704s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.9850809220971515px"
+-                       width: "10.7802px"
++                       height: "4.9850809220971515px"
+-                       height: "10.7802px"
++                       left: "7.282201270505739%"
+-                       left: "77.1399%"
++                       top: "3.8072588210698033%"
+-                       top: "36.4189%"
++                       animationDuration: "9.547409982847794s"
++                       animationDelay: "3.6721380740339473s"
+-                       animation-duration: "9.26283s"
+-                       animation-delay: "2.33195s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.689580320228504px"
+-                       width: "11.0019px"
++                       height: "11.689580320228504px"
+-                       height: "11.0019px"
++                       left: "1.6292781779780774%"
+-                       left: "13.4833%"
++                       top: "17.28190025449805%"
+-                       top: "80.6891%"
++                       animationDuration: "9.225389324720362s"
++                       animationDelay: "1.8233654862122624s"
+-                       animation-duration: "8.04074s"
+-                       animation-delay: "3.52275s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.842470645816597px"
+-                       width: "5.12207px"
++                       height: "11.842470645816597px"
+-                       height: "5.12207px"
++                       left: "66.07151099201498%"
+-                       left: "4.61225%"
++                       top: "52.179942572121654%"
+-                       top: "2.54169%"
++                       animationDuration: "9.503773921531375s"
++                       animationDelay: "0.2067341878772777s"
+-                       animation-duration: "9.96861s"
+-                       animation-delay: "3.86001s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.935033745741102px"
+-                       width: "5.59591px"
++                       height: "4.935033745741102px"
+-                       height: "5.59591px"
++                       left: "0.28232446774342224%"
+-                       left: "34.7659%"
++                       top: "43.50755746488595%"
+-                       top: "97.3708%"
++                       animationDuration: "5.788530277852775s"
++                       animationDelay: "3.18665497956588s"
+-                       animation-duration: "7.19277s"
+-                       animation-delay: "3.32218s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "6.532690862149785px"
+-                       width: "4.37465px"
++                       height: "6.532690862149785px"
+-                       height: "4.37465px"
++                       left: "8.962606118087058%"
+-                       left: "19.2474%"
++                       top: "40.9616969131078%"
+-                       top: "36.591%"
++                       animationDuration: "7.085757900271073s"
++                       animationDelay: "4.622302015192926s"
+-                       animation-duration: "5.20566s"
+-                       animation-delay: "1.44418s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.215136768314125px"
+-                       width: "4.56013px"
++                       height: "10.215136768314125px"
+-                       height: "4.56013px"
++                       left: "5.0789732157810015%"
+-                       left: "58.626%"
++                       top: "24.722635217896162%"
+-                       top: "73.5751%"
++                       animationDuration: "5.8399904363183s"
++                       animationDelay: "2.608712059111114s"
+-                       animation-duration: "7.06355s"
+-                       animation-delay: "4.37545s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "5.285723238106098px"
+-                       width: "7.36676px"
++                       height: "5.285723238106098px"
+-                       height: "7.36676px"
++                       left: "50.51393722620371%"
+-                       left: "77.1835%"
++                       top: "49.239860031585806%"
+-                       top: "68.2521%"
++                       animationDuration: "5.71713916006807s"
++                       animationDelay: "2.103619689721909s"
+-                       animation-duration: "8.48467s"
+-                       animation-delay: "3.48027s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.660710909048445px"
+-                       width: "8.35873px"
++                       height: "10.660710909048445px"
+-                       height: "8.35873px"
++                       left: "33.04183380788571%"
+-                       left: "55.8175%"
++                       top: "92.52833637544808%"
+-                       top: "51.3032%"
++                       animationDuration: "7.211720816451308s"
++                       animationDelay: "3.225879801395018s"
+-                       animation-duration: "8.27936s"
+-                       animation-delay: "2.58351s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "9.373289584744342px"
+-                       width: "10.2251px"
++                       height: "9.373289584744342px"
+-                       height: "10.2251px"
++                       left: "49.7267775978423%"
+-                       left: "32.4573%"
++                       top: "30.55270437805817%"
+-                       top: "56.7243%"
++                       animationDuration: "9.830111130639485s"
++                       animationDelay: "4.380797951467788s"
+-                       animation-duration: "5.687s"
+-                       animation-delay: "3.31826s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "5.439709876035804px"
+-                       width: "5.34616px"
++                       height: "5.439709876035804px"
+-                       height: "5.34616px"
++                       left: "27.083117284327997%"
+-                       left: "17.0196%"
++                       top: "80.92753460727351%"
+-                       top: "84.667%"
++                       animationDuration: "5.5619696311989655s"
++                       animationDelay: "3.6153956757577976s"
+-                       animation-duration: "7.07334s"
+-                       animation-delay: "0.994376s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "11.60793241360918px"
+-                       width: "9.55151px"
++                       height: "11.60793241360918px"
+-                       height: "9.55151px"
++                       left: "1.7724669957089545%"
+-                       left: "10.1716%"
++                       top: "43.46501346316599%"
+-                       top: "56.7318%"
++                       animationDuration: "6.811043153185219s"
++                       animationDelay: "2.8380469295581157s"
+-                       animation-duration: "9.45357s"
+-                       animation-delay: "0.642095s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "10.45947362207573px"
+-                       width: "6.40036px"
++                       height: "10.45947362207573px"
+-                       height: "6.40036px"
++                       left: "62.1388525195734%"
+-                       left: "48.7035%"
++                       top: "91.68530381604826%"
+-                       top: "55.4121%"
++                       animationDuration: "5.525374075547402s"
++                       animationDelay: "2.272123405760828s"
+-                       animation-duration: "6.0449s"
+-                       animation-delay: "1.05379s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "8.529851907045636px"
+-                       width: "8.14636px"
++                       height: "8.529851907045636px"
+-                       height: "8.14636px"
++                       left: "87.99591091898587%"
+-                       left: "29.0419%"
++                       top: "94.38932538383688%"
+-                       top: "60.595%"
++                       animationDuration: "8.18902057508993s"
++                       animationDelay: "2.0667661614829056s"
+-                       animation-duration: "7.17163s"
+-                       animation-delay: "1.17436s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                    <span
+                      style={{
++                       width: "4.945742446307458px"
+-                       width: "10.074px"
++                       height: "4.945742446307458px"
+-                       height: "10.074px"
++                       left: "36.33877237239195%"
+-                       left: "75.0724%"
++                       top: "22.62548779518222%"
+-                       top: "26.9874%"
++                       animationDuration: "5.233314892093547s"
++                       animationDelay: "0.7121207252487283s"
+-                       animation-duration: "5.30266s"
+-                       animation-delay: "1.00374s"
+                      }}
+                      className="jsx-872df3da4629a56b absolute rounded-full bg-white opacity-70 animate-bubble"
+                    >
+                  ...
+                ...
+          ...
+
+[00:00:31.146] Browser WARN    Image with src "/logos/kdrama.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:31.406] Browser WARN    Image with src "/logos/mlb.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:31.406] Browser WARN    Image with src "/logos/datafest.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:31.517] Browser WARN    Image with src "/logos/football.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:33.416] Browser WARN    Image with src "/profile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:16.434] Server  LOG      ✓ Compiled in 133ms
