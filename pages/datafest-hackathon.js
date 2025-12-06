@@ -268,7 +268,7 @@ export default function DatafestHackathonPage() {
     <div className="w-full max-w-5xl mx-auto rounded-lg shadow-2xl overflow-hidden border border-gray-200">
     {isClient && (
         <iframe
-            src="/Yoohooo Datafest.pdf"
+            src="/project/Yoohooo Datafest.pdf"
             className="w-full h-[800px]"
             title="Datafest Presentation"
         >

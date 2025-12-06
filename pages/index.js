@@ -62,8 +62,16 @@ export default function Home() {
   /* ────────── Experience Data ────────── */
   const experiences = [
     {
-      date: "Jun 2025 – Present",
-      role: "Data Science Product Analyst",
+      date: "Jun 2026 – ",
+      role: "Incoming Data Science Intern",
+      org: "Meta",
+      bullets: [
+        "Incoming Data Science Internship focused on driving data-informed insights across Meta products, user behavior, and experimentation.",
+      ],
+    },
+    {
+      date: "Jun 2025 – Sept 2025",
+      role: "Data Science Intern",
       org: "Handshakes",
       bullets: [
         "Collaborating with product and engineering teams to scope data-driven feature improvements for Handshakes' app.",
@@ -79,8 +87,17 @@ export default function Home() {
       ],
     },
     {
+      date: "Mar 2025 – Jun 2025",
+      role: "Data Analytics Extern",
+      org: "Amazon",
+      bullets: [
+        "Applied NLP methods to uncover themes and sentiment patterns in unstructured employee feedback.",
+        "Conducted statistical analyses to link sentiment patterns with attrition drivers, informing a targeted retention strategy.",
+      ],
+    },
+    {
       date: "Jan 2025 – Jun 2025",
-      role: "Data Scientist",
+      role: "Data Science Intern",
       org: "Reinforced Ventures",
       bullets: [
   "Defined metrics of founder success using lab pedigree, patent count, and startup outcomes across robotics and biotech domains.",
@@ -93,20 +110,12 @@ export default function Home() {
       org: "UCLA Health",
       bullets: [
           "Built a statistically sound sampling framework to estimate CO₂ emissions, enabling accurate life-cycle analysis of 25K+ medical products.",
-      ],
-    },
-    {
-      date: "Oct 2024 – Mar 2025",
-      role: "Business Analyst",
-      org: "Unishack",
-      bullets: [
-        "Conducted SEO audits and competitor analysis on sites like Zillow and Apartments.com to identify high-impact student housing keywords.",
-        "Developed user segmentation and UX improvement recommendations based on student feedback and web traffic data.",
+          "- Developed the first variance-aware uncertainty quantification approach in this context to ensure defensible, high-confidence emissions estimates.",
       ],
     },
     {
       date: "Jun 2024 – Aug 2024",
-      role: "Data Engineer",
+      role: "Data Engineer Intern",
       org: "CAAS",
       bullets: [
         "Built and maintained ETL pipelines in Azure Synapse Analytics to process 10GB of aviation data daily across 20+ tables.",
@@ -118,19 +127,10 @@ export default function Home() {
   /* ────────── Projects Data (Updated Structure) ────────── */
   const projects = [
     {
-      title: "Amazon Operational Strategy",
-      description: "Transformed unstructured employee feedback into actionable retention strategies by developing data-driven cohort profiles and operational recommendations.",
-      primaryTag: "Coming soon",
-      // timeline: "2025",
-      tags: ["Python Scraping", "Sentiment Analysis", "Operational Strategy", "User Research"],
-      imageUrl: "/logos/amazon photo.png",
-      // link: "NEED ADD LINK",
-    },
-    {
       title: "DataFest Hackathon (🏅 Winner)",
       description: "Developed data-driven insights by identifying growth drivers and forecasting high-potential regions across tech, finance, and legal sectors. Delivered recommendations to guide client leasing decisions.",
       primaryTag: "Real Estate",
-      tags: ["Data Visualization", "Python", "Data Cleaning", "EDA"],
+      tags: ["Python", "Data Cleaning", "EDA", "GIS Plotting"],
       imageUrl: "/logos/datafest.png",
       link: "/datafest-hackathon",
     },
@@ -145,10 +145,26 @@ export default function Home() {
     {
       title: "Who Can Replace Busquets? Tactical + Statistical Deep Dive",
       description: "Used player performance metrics and clustering techniques to identify modern midfielders who mirror Sergio Busquets’ unique playing style. Combined data-driven analysis with tactical context to evaluate potential successors.",
-      primaryTag: "Sports Analytics",
+      primaryTag: "Soccer Analytics",
       tags: ["Cosine Similarity", "PCA", "Metrics"],
       imageUrl: "/logos/football.png",
       link: "https://www.bruinsportsanalytics.com/post/sergio-busquets-heir",
+    },
+    {
+      title: "Balancing Performance and Longevity: Modeling Injury Risk in MLB Pitcher",
+      description: "Developed statistical models to quantify the relationship between pitch-type usage, workload patterns, and short-term injury risk among MLB pitchers. Applied clustering and predictive modeling techniques to identify workload profiles associated with increased injury likelihood, balancing performance output with long-term durability.",
+      primaryTag: "Baseball Analytics",
+      tags: ["Pitch Metrics", "Logistic Regression", "Poisson Regression"],
+      imageUrl: "/logos/mlb.png",
+      link: "/Project/Poster.pdf",
+    },
+    {
+      title: "Estimating CO₂ Emissions at UCSF Health Using a Hybrid Sampling Approach",
+      description: "Developed a statistically grounded sampling framework to estimate CO₂ emissions across thousands of medical products, enabling accurate life-cycle assessment. Introduced a first-of-its-kind variance-aware uncertainty quantification method to deliver defensible, high-confidence emissions estimates for institutional decision-making.",
+      primaryTag: "Sampling Design",
+      tags: ["Propensity Scoring", "Confidence Intervals"],
+      imageUrl: "/logos/ucsf_health.jpg",
+      link: "/Project/Research Report.pdf",
     },
     {
       title: "How Music Shapes Young Minds",
@@ -156,7 +172,7 @@ export default function Home() {
       primaryTag: "Experimental Design", 
       tags: ["ANOVA", "R programming", "Randomized Block Design"],
       imageUrl: "/logos/music pic.png",
-      link: "/How Music Shapes Young Minds.pdf"
+      link: "/Project/How Music Shapes Young Minds.pdf"
     }
   ];
 
@@ -250,17 +266,25 @@ export default function Home() {
       >
         {/* Stardust layer */}
         <div className="pointer-events-none overflow-hidden absolute inset-0 -z-10">
-          {Array.from({ length: 100 }).map((_, i) => (
-            <span
-              key={i}
-              className="absolute w-1.5 h-1.5 rounded-full bg-white opacity-70 animate-star"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 8}s`,
-              }}
-            />
-          ))}
+          {Array.from({ length: 75 }).map((_, i) => {
+  const size = 4 + Math.random() * 8;
+
+  return (
+    <span
+      key={i}
+      className="absolute rounded-full bg-white opacity-70 animate-bubble"
+      style={{
+        width: `${size}px`,
+        height: `${size}px`,
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        animationDuration: `${5 + Math.random() * 5}s`,
+        animationDelay: `${Math.random() * 5}s`,
+      }}
+    />
+  );
+})}
+
         </div>
 
         {/* Profile photo */}
@@ -378,7 +402,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= Experience (NEW ROBUST LAYOUT) ================= */}
+      {/* ================= Experience ================= */}
 <section
   id="experience"
   className="bg-gradient-to-b from-pink-50 via-white to-rose-50 py-32"
@@ -475,13 +499,10 @@ export default function Home() {
         const linkProps = {
           className: `${cardClasses} cursor-pointer`,
           "data-aos": "fade-up",
-          "data-aos-delay": idx * 150,
+          "data-aos-delay": idx * 150,  
+          target: "_blank",
+          rel: "noopener noreferrer",
         };
-
-        if (project.title !== "DataFest Hackathon (🏅 Winner)") {
-          linkProps.target = "_blank";
-          linkProps.rel = "noopener noreferrer";
-        }
 
         return project.link ? (
           <Link href={project.link} passHref legacyBehavior key={idx}>
@@ -574,7 +595,7 @@ export default function Home() {
               
               <div className="mt-1">
                 <p className="text-xl text-gray-700 mb-6">
-                  Curious to see more of my work?
+                  Curious to know more about me and my work?
                 </p>
                 <Link href="/playground" passHref legacyBehavior>
                   <a
@@ -610,7 +631,7 @@ export default function Home() {
 
             {/* 2. Consolidated paragraph with an inline, hoverable email link */}
             <p className="mt-6 text-lg text-gray-700 max-w-xl mx-auto">
-              I am currently looking for Summer 2026 internships! Feel free to contact me at{" "}
+              Feel free to contact me at{" "}
               <a
                 href="mailto:yuhan.xie04@gmail.com"
                 className="text-pink-400 font-medium hover:underline"
@@ -672,11 +693,29 @@ export default function Home() {
         }
         .animate-cannon { animation: cannon 1.5s ease-in-out both; }
 
-        @keyframes star {
-          0%   { transform: translateY(0) scale(1);   opacity: 1; }
-          100% { transform: translateY(-100vh) scale(0.4); opacity: 0; }
-        }
-        .animate-star { animation: star 8s linear infinite; }
+        @keyframes floatBubble {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.9);
+  }
+  40% {
+    opacity: 0.8;
+    transform: translate(20px, -25px) scale(1.15);
+  }
+  70% {
+    opacity: 0.8;
+    transform: translate(-15px, 20px) scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -15px) scale(0.9);
+  }
+}
+
+
+.animate-bubble {
+  animation: floatBubble 12s ease-in-out infinite;
+}
 
         @keyframes typing {
           from { width: 0; }

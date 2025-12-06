@@ -60,22 +60,22 @@ const favorites = [
         category: "Movies",
         emoji: "🎬",
         items: [
-            { name: "Parasite", imageUrl: "/parasite.png" },
-            { name: "Ne Zha", imageUrl: "/nezha.png" },
-            { name: "Top Gun", imageUrl: "/topgun.png" },
-            { name: "The Platform", imageUrl: "/platform.png" },
-            { name: "Sheep without a Shepherd", imageUrl: "/sheep.png" }
+            { name: "Parasite", imageUrl: "/playground/parasite.png" },
+            { name: "Ne Zha", imageUrl: "/playground/nezha.png" },
+            { name: "Top Gun", imageUrl: "/playground/topgun.png" },
+            { name: "The Platform", imageUrl: "/playground/platform.png" },
+            { name: "Sheep without a Shepherd", imageUrl: "/playground/sheep.png" }
         ]
     },
     {
         category: "Shows",
         emoji: "📺",
         items: [
-            { name: "Squid Game", imageUrl: "/squid.png" },
-            { name: "The Disguiser", imageUrl: "/disguiser.jpg" },
-            { name: "Wednesday", imageUrl: "/wednesday.jpg" },
-            { name: "Joy of Life", imageUrl: "/joy.png" },
-            { name: "Till the End of the Moon", imageUrl: "/moon.jpg" }
+            { name: "Squid Game", imageUrl: "/playground/squid.png" },
+            { name: "The Disguiser", imageUrl: "/playground/disguiser.jpg" },
+            { name: "Wednesday", imageUrl: "/playground/wednesday.jpg" },
+            { name: "Joy of Life", imageUrl: "/playground/joy.png" },
+            { name: "Till the End of the Moon", imageUrl: "/playground/moon.jpg" }
         ]
     }
 ];
